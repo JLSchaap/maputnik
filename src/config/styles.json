@@ -42,6 +42,18 @@
     "thumbnail": "https://api.pdok.nl/kadaster/bestuurlijkegebieden/ogc/v1/resources/bestuurlijkegebieden_annotatievisualisatie.png"
   },
   {
+    "id": "kadastralekaart-standaard-style",
+    "title": "Kadastrale kaart standaard style",
+    "url": "https://pdok.github.io/vectortile-demo-viewer/styles/brk/dkk_standaard_webmercator.json",
+    "thumbnail": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v5-preprod/resources/kadastralekaart.jpg"
+  },
+  {
+    "id": "kadastralekaart-kwaliteit-style",
+    "title": "Kadastrale kaart kwaliteit style",
+    "url": "https://pdok.github.io/vectortile-demo-viewer/styles/brk/dkk_kwaliteitsvissualisatie_nederlandsRDNewQuad.json",
+    "thumbnail": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v5-preprod/resources/kadastralekaart.jpg"
+  },
+  {
     "id": "0-empty-style",
     "title": "Empty Style",
     "url": "https://cdn.jsdelivr.net/gh/maputnik/editor@9cf74ca405d2be0608b57db8109cf3a6af5b9f49/src/config/empty-style.json",
