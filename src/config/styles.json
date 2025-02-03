@@ -44,13 +44,13 @@
   {
     "id": "kadastralekaart-standaard-style",
     "title": "Kadastrale kaart standaard style",
-    "url": "https://pdok.github.io/vectortile-demo-viewer/styles/brk/dkk_standaard_webmercator.json",
+    "url": "https://pdok.github.io/vectortile-demo-viewer/styles/brk/dkk_standaard_webmercatorquad.json",
     "thumbnail": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v5-preprod/resources/kadastralekaart.jpg"
   },
   {
     "id": "kadastralekaart-kwaliteit-style",
     "title": "Kadastrale kaart kwaliteit style",
-    "url": "https://pdok.github.io/vectortile-demo-viewer/styles/brk/dkk_kwaliteitsvissualisatie_nederlandsRDNewQuad.json",
+    "url": "https://pdok.github.io/vectortile-demo-viewer/styles/brk/dkk_kwaliteitsvissualisatie_webmercatorquad.json",
     "thumbnail": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v5-preprod/resources/kadastralekaart.jpg"
   },
   {
