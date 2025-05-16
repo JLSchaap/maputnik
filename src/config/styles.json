@@ -1,43 +1,43 @@
 [
   {
     "id": "brt-top10nl-style",
-    "title": "BRT TOP10NL Standaardvisualisatie",
+    "title": "BRT TOP10NL Standaardvisualisatie (WebMercatorQuad)",
     "url": "https://api.pdok.nl/brt/top10nl/ogc/v1/styles/brt_top10nl__webmercatorquad?f=mapbox",
     "thumbnail": "https://api.pdok.nl/brt/top10nl/ogc/v1/resources/top10nl_standaardvisualisatie.png"
   },
   {
     "id": "bag-standaard-style",
-    "title": "BAG Standaardvisualisatie",
+    "title": "BAG Standaardvisualisatie (WebMercatorQuad)",
     "url": " https://api.pdok.nl/lv/bag/ogc/v1/styles/bag_standaardvisualisatie__webmercatorquad?f=mapbox",
     "thumbnail": "https://api.pdok.nl/lv/bag/ogc/v1/resources/bag_standaardvisualisatie.png"
   },
   {
     "id": "bag-standaard-compleet-style",
-    "title": "BAG Standaardvisualisatie -Compleet",
+    "title": "BAG Standaardvisualisatie -Compleet (WebMercatorQuad)",
     "url": " https://api.pdok.nl/lv/bag/ogc/v1/styles/bag_standaardvisualisatie_compleet__webmercatorquad?f=mapbox",
     "thumbnail": "https://api.pdok.nl/lv/bag/ogc/v1/resources/bag_standaardvisualisatie_compleet.png"
   },
   {
     "id": "bgt-standaard-style",
-    "title": "BGT Standaardvisualisatie",
+    "title": "BGT Standaardvisualisatie (WebMercatorQuad)",
     "url": "https://api.pdok.nl/lv/bgt/ogc/v1/styles/bgt_standaardvisualisatie__webmercatorquad?f=json",
     "thumbnail": "https://api.pdok.nl/lv/bgt/ogc/v1/resources/bgt_standaardvisualisatie.png"
   },
   {
     "id": "bgt-achtergrond-style",
-    "title": "BGT Achtergrondvisualisatie",
+    "title": "BGT Achtergrondvisualisatie (WebMercatorQuad)",
     "url": "https://api.pdok.nl/lv/bgt/ogc/v1/styles/bgt_achtergrondvisualisatie__webmercatorquad?f=json",
     "thumbnail": "https://api.pdok.nl/lv/bgt/ogc/v1/resources/bgt_achtergrondvisualisatie.png"
   },
   {
     "id": "bestuurlijke-gebieden-standaard-style",
-    "title": "Bestuurlijke Gebieden Standaardvisualisatie",
+    "title": "Bestuurlijke Gebieden Standaardvisualisatie (WebMercatorQuad)",
     "url": "https://api.pdok.nl/kadaster/bestuurlijkegebieden/ogc/v1/styles/bestuurlijkegebieden_standaardvisualisatie__webmercatorquad?f=mapbox",
     "thumbnail": "https://api.pdok.nl/kadaster/bestuurlijkegebieden/ogc/v1/resources/bestuurlijkegebieden_standaardvisualisatie.png"
   },
   {
     "id": "bestuurlijke-gebieden-geannoteerd-style",
-    "title": "Bestuurlijke Gebieden gemeente labels",
+    "title": "Bestuurlijke Gebieden gemeente labels (WebMercatorQuad)",
     "url": "https://api.pdok.nl/kadaster/bestuurlijkegebieden/ogc/v1/styles/bestuurlijkegebieden_geannoteerd__webmercatorquad?f=mapbox",
     "thumbnail": "https://api.pdok.nl/kadaster/bestuurlijkegebieden/ogc/v1/resources/bestuurlijkegebieden_annotatievisualisatie.png"
   },
@@ -48,33 +48,9 @@
     "thumbnail": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/resources/standaardvisualisatie.png"
   },
   {
-    "id": "kadastralekaart-standaardvisualisatie-europeanetrs89_laeaquad",
-    "title": "Kadastrale kaart standaardvisualisatie (EuropeanETRS89_LAEAQuad)",
-    "url": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/styles/standaardvisualisatie__europeanetrs89_laeaquad?f=mapbox",
-    "thumbnail": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/resources/standaardvisualisatie.png"
-  },
-  {
-    "id": "kadastralekaart-standaardvisualisatie-netherlandsrdnewquad",
-    "title": "Kadastrale kaart standaardvisualisatie (NetherlandsRDNewQuad)",
-    "url": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/styles/standaardvisualisatie__netherlandsrdnewquad?f=mapbox",
-    "thumbnail": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/resources/standaardvisualisatie.png"
-  },
-  {
     "id": "kadastralekaart-kwaliteitsvisualisatie-webmercatorquad",
     "title": "Kadastrale kaart kwaliteitsvisualisatie (WebMercatorQuad)",
     "url": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/styles/kwaliteitsvisualisatie__webmercatorquad?f=mapbox",
-    "thumbnail": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/resources/kwaliteitsvisualisatie.png"
-  },
-  {
-    "id": "kadastralekaart-kwaliteitsvisualisatie-europeanetrs89_laeaquad",
-    "title": "Kadastrale kaart kwaliteitsvisualisatie (EuropeanETRS89_LAEAQuad)",
-    "url": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/styles/kwaliteitsvisualisatie__europeanetrs89_laeaquad?f=mapbox",
-    "thumbnail": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/resources/kwaliteitsvisualisatie.png"
-  },
-  {
-    "id": "kadastralekaart-kwaliteitsvisualisatie-netherlandsrdnewquad",
-    "title": "Kadastrale kaart kwaliteitsvisualisatie (NetherlandsRDNewQuad)",
-    "url": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/styles/kwaliteitsvisualisatie__netherlandsrdnewquad?f=mapbox",
     "thumbnail": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/resources/kwaliteitsvisualisatie.png"
   },
   {
@@ -84,33 +60,9 @@
     "thumbnail": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/resources/standaard.png"
   },
   {
-    "id": "brt-achtergrondkaart-standaard-europeanetrs89_laeaquad",
-    "title": "BRT Achtergrondkaart Standaard (EuropeanETRS89_LAEAQuad)",
-    "url": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/styles/standaard__europeanetrs89_laeaquad?f=mapbox",
-    "thumbnail": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/resources/standaard.png"
-  },
-  {
-    "id": "brt-achtergrondkaart-standaard-netherlandsrdnewquad",
-    "title": "BRT Achtergrondkaart Standaard (NetherlandsRDNewQuad)",
-    "url": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/styles/standaard__netherlandsrdnewquad?f=mapbox",
-     "thumbnail": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/resources/standaard.png"
-  },
-  {
     "id": "brt-achtergrondkaart-standaard-zonder-labels-webmercatorquad",
     "title": "BRT Achtergrondkaart Standaard - zonder labels (WebMercatorQuad)",
     "url": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/styles/standaard_zonder_labels__webmercatorquad?f=mapbox",
-    "thumbnail": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/resources/standaard_zonder_labels.png"
-  },
-  {
-    "id": "brt-achtergrondkaart-standaard-zonder-labels-europeanetrs89_laeaquad",
-    "title": "BRT Achtergrondkaart Standaard - zonder labels (EuropeanETRS89_LAEAQuad)",
-    "url": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/styles/standaard_zonder_labels__europeanetrs89_laeaquad?f=mapbox",
-    "thumbnail": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/resources/standaard_zonder_labels.png"
-  },
-  {
-    "id": "brt-achtergrondkaart-standaard-zonder-labels-netherlandsrdnewquad",
-    "title": "BRT Achtergrondkaart Standaard - zonder labels (NetherlandsRDNewQuad)",
-    "url": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/styles/standaard_zonder_labels__netherlandsrdnewquad?f=mapbox",
     "thumbnail": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/resources/standaard_zonder_labels.png"
   },
   {
@@ -120,10 +72,34 @@
     "thumbnail": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/resources/luchtfoto_labels.png"
   },
   {
-    "id": "brt-luchtfoto-labels-europeanetrs89_laeaquad",
-    "title": "BRT Luchtfoto labels (EuropeanETRS89_LAEAQuad)",
-    "url": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/styles/luchtfoto_labels__europeanetrs89_laeaquad?f=mapbox",
-    "thumbnail": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/resources/luchtfoto_labels.png"
+    "id": "brt-darkmode-webmercatorquad",
+    "title": "BRT Achtergrondkaart Dark Mode (WebMercatorQuad)",
+    "url": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/styles/darkmode__webmercatorquad?f=mapbox",
+    "thumbnail": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/resources/darkmode.png"
+  },
+  {
+    "id": "kadastralekaart-standaardvisualisatie-netherlandsrdnewquad",
+    "title": "Kadastrale kaart standaardvisualisatie (NetherlandsRDNewQuad)",
+    "url": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/styles/standaardvisualisatie__netherlandsrdnewquad?f=mapbox",
+    "thumbnail": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/resources/standaardvisualisatie.png"
+  },
+  {
+    "id": "kadastralekaart-kwaliteitsvisualisatie-netherlandsrdnewquad",
+    "title": "Kadastrale kaart kwaliteitsvisualisatie (NetherlandsRDNewQuad)",
+    "url": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/styles/kwaliteitsvisualisatie__netherlandsrdnewquad?f=mapbox",
+    "thumbnail": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/resources/kwaliteitsvisualisatie.png"
+  },
+  {
+    "id": "brt-achtergrondkaart-standaard-netherlandsrdnewquad",
+    "title": "BRT Achtergrondkaart Standaard (NetherlandsRDNewQuad)",
+    "url": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/styles/standaard__netherlandsrdnewquad?f=mapbox",
+    "thumbnail": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/resources/standaard.png"
+  },
+  {
+    "id": "brt-achtergrondkaart-standaard-zonder-labels-netherlandsrdnewquad",
+    "title": "BRT Achtergrondkaart Standaard - zonder labels (NetherlandsRDNewQuad)",
+    "url": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/styles/standaard_zonder_labels__netherlandsrdnewquad?f=mapbox",
+    "thumbnail": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/resources/standaard_zonder_labels.png"
   },
   {
     "id": "brt-luchtfoto-labels-netherlandsrdnewquad",
@@ -132,10 +108,40 @@
     "thumbnail": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/resources/luchtfoto_labels.png"
   },
   {
-    "id": "brt-darkmode-webmercatorquad",
-    "title": "BRT Achtergrondkaart Dark Mode (WebMercatorQuad)",
-    "url": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/styles/darkmode__webmercatorquad?f=mapbox",
+    "id": "brt-darkmode-netherlandsrdnewquad",
+    "title": "BRT Achtergrondkaart Dark Mode (NetherlandsRDNewQuad)",
+    "url": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/styles/darkmode__netherlandsrdnewquad?f=mapbox",
     "thumbnail": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/resources/darkmode.png"
+  },
+  {
+    "id": "kadastralekaart-standaardvisualisatie-europeanetrs89_laeaquad",
+    "title": "Kadastrale kaart standaardvisualisatie (EuropeanETRS89_LAEAQuad)",
+    "url": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/styles/standaardvisualisatie__europeanetrs89_laeaquad?f=mapbox",
+    "thumbnail": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/resources/standaardvisualisatie.png"
+  },
+  {
+    "id": "kadastralekaart-kwaliteitsvisualisatie-europeanetrs89_laeaquad",
+    "title": "Kadastrale kaart kwaliteitsvisualisatie (EuropeanETRS89_LAEAQuad)",
+    "url": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/styles/kwaliteitsvisualisatie__europeanetrs89_laeaquad?f=mapbox",
+    "thumbnail": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/resources/kwaliteitsvisualisatie.png"
+  },
+  {
+    "id": "brt-achtergrondkaart-standaard-europeanetrs89_laeaquad",
+    "title": "BRT Achtergrondkaart Standaard (EuropeanETRS89_LAEAQuad)",
+    "url": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/styles/standaard__europeanetrs89_laeaquad?f=mapbox",
+    "thumbnail": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/resources/standaard.png"
+  },
+  {
+    "id": "brt-achtergrondkaart-standaard-zonder-labels-europeanetrs89_laeaquad",
+    "title": "BRT Achtergrondkaart Standaard - zonder labels (EuropeanETRS89_LAEAQuad)",
+    "url": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/styles/standaard_zonder_labels__europeanetrs89_laeaquad?f=mapbox",
+    "thumbnail": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/resources/standaard_zonder_labels.png"
+  },
+  {
+    "id": "brt-luchtfoto-labels-europeanetrs89_laeaquad",
+    "title": "BRT Luchtfoto labels (EuropeanETRS89_LAEAQuad)",
+    "url": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/styles/luchtfoto_labels__europeanetrs89_laeaquad?f=mapbox",
+    "thumbnail": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/resources/luchtfoto_labels.png"
   },
   {
     "id": "brt-darkmode-europeanetrs89_laeaquad",
@@ -144,105 +150,98 @@
     "thumbnail": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/resources/darkmode.png"
   },
   {
-    "id": "brt-darkmode-netherlandsrdnewquad",
-    "title": "BRT Achtergrondkaart Dark Mode (NetherlandsRDNewQuad)",
-    "url": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/styles/darkmode__netherlandsrdnewquad?f=mapbox",
-    "thumbnail": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/resources/darkmode.png"
-  },
-
-  {
     "id": "0-empty-style",
-    "title": "Empty Style",
+    "title": "Empty Style (WebMercatorQuad)",
     "url": "https://cdn.jsdelivr.net/gh/maputnik/editor@9cf74ca405d2be0608b57db8109cf3a6af5b9f49/src/config/empty-style.json",
     "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAQAAAAHDYbIAAAAEUlEQVR42mP8/58BDhiJ4wAA974H/U5Xe1oAAAAASUVORK5CYII="
   },
   {
     "id": "americana",
-    "title": "Americana",
+    "title": "Americana (WebMercatorQuad)",
     "url": "https://americanamap.org/style.json",
     "thumbnail": "https://github.com/maplibre/maputnik/assets/649392/23fa75ad-63e6-43f5-8837-03cdb0428bac"
   },
   {
     "id": "dark-matter",
-    "title": "Dark Matter",
+    "title": "Dark Matter (WebMercatorQuad)",
     "url": "https://cdn.jsdelivr.net/gh/openmaptiles/dark-matter-gl-style@v1.9/style.json",
     "thumbnail": "https://maputnik.github.io/thumbnails/dark-matter.png"
   },
   {
     "id": "maptiler-basic-gl-style",
-    "title": "Maptiler Basic",
+    "title": "Maptiler Basic (WebMercatorQuad)",
     "url": "https://cdn.jsdelivr.net/gh/openmaptiles/klokantech-basic-gl-style@v1.10/style.json",
     "thumbnail": "https://maputnik.github.io/thumbnails/klokantech-basic.png"
   },
   {
     "id": "maptiler-toner-gl-style",
-    "title": "Toner",
+    "title": "Toner (WebMercatorQuad)",
     "url": "https://cdn.jsdelivr.net/gh/openmaptiles/toner-gl-style@v1.0/style.json",
     "thumbnail": "https://maputnik.github.io/thumbnails/toner.png"
   },
   {
     "id": "os-zoomstack-light",
-    "title": "Zoomstack Light",
+    "title": "Zoomstack Light (WebMercatorQuad)",
     "url": "https://s3-eu-west-1.amazonaws.com/tiles.os.uk/v2/styles/open-zoomstack-light/style.json",
     "thumbnail": "https://maputnik.github.io/thumbnails/os-zoomstack-light.png"
   },
   {
     "id": "os-zoomstack-night",
-    "title": "Zoomstack Night",
+    "title": "Zoomstack Night (WebMercatorQuad)",
     "url": "https://s3-eu-west-1.amazonaws.com/tiles.os.uk/v2/styles/open-zoomstack-night/style.json",
     "thumbnail": "https://maputnik.github.io/thumbnails/os-zoomstack-night.png"
   },
   {
     "id": "os-zoomstack-outdoor",
-    "title": "Zoomstack Outdoor",
+    "title": "Zoomstack Outdoor (WebMercatorQuad)",
     "url": "https://s3-eu-west-1.amazonaws.com/tiles.os.uk/v2/styles/open-zoomstack-outdoor/style.json",
     "thumbnail": "https://maputnik.github.io/thumbnails/os-zoomstack-outdoor.png"
   },
   {
     "id": "os-zoomstack-road",
-    "title": "Zoomstack Road",
+    "title": "Zoomstack Road (WebMercatorQuad)",
     "url": "https://s3-eu-west-1.amazonaws.com/tiles.os.uk/v2/styles/open-zoomstack-road/style.json",
     "thumbnail": "https://maputnik.github.io/thumbnails/os-zoomstack-road.png"
   },
   {
     "id": "osm-bright",
-    "title": "OSM Bright",
+    "title": "OSM Bright (WebMercatorQuad)",
     "url": "https://cdn.jsdelivr.net/gh/openmaptiles/osm-bright-gl-style@v1.11/style.json",
     "thumbnail": "https://maputnik.github.io/thumbnails/osm-bright.png"
   },
   {
     "id": "osm-liberty",
-    "title": "OSM Liberty",
+    "title": "OSM Liberty (WebMercatorQuad)",
     "url": "https://maputnik.github.io/osm-liberty/style.json",
     "thumbnail": "https://maputnik.github.io/thumbnails/osm-liberty.png"
   },
   {
     "id": "osm-openmaptiles",
-    "title": "OSM OpenMapTiles",
+    "title": "OSM OpenMapTiles (WebMercatorQuad)",
     "url": "https://api.maptiler.com/maps/openstreetmap/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL",
     "thumbnail": "https://openmaptiles.org/img/styles/openmaptiles.png"
   },
   {
     "id": "positron",
-    "title": "Positron",
+    "title": "Positron (WebMercatorQuad)",
     "url": "https://cdn.jsdelivr.net/gh/openmaptiles/positron-gl-style@v1.9/style.json",
     "thumbnail": "https://maputnik.github.io/thumbnails/positron.png"
   },
   {
     "id": "protomaps-light",
-    "title": "Protomaps Light",
+    "title": "Protomaps Light (WebMercatorQuad)",
     "url": "https://api.protomaps.com/styles/v4/light/en.json?key=d828297496b11844",
     "thumbnail": "https://github.com/user-attachments/assets/911f9765-4a7d-4736-9ec0-f2d4c90ae587"
   },
   {
     "id": "stadia-outdoors",
-    "title": "Stadia Outdoors",
+    "title": "Stadia Outdoors (WebMercatorQuad)",
     "url": "https://tiles.stadiamaps.com/styles/outdoors.json",
     "thumbnail": "https://tiles.stadiamaps.com/static/outdoors.png?size=480x320&center=47.350259,8.49035&zoom=16"
   },
   {
     "id": "versatiles-colorful",
-    "title": "Versatiles Colorful",
+    "title": "Versatiles Colorful (WebMercatorQuad)",
     "url": "https://tiles.versatiles.org/assets/styles/colorful/style.json",
     "thumbnail": "https://github.com/maplibre/maputnik/assets/649392/6cd69818-c541-46e4-a920-65fb4f654931"
   }
