@@ -11,7 +11,7 @@ import FieldCheckbox from './FieldCheckbox'
 import { WithTranslation, withTranslation } from 'react-i18next';
 import { TFunction } from 'i18next'
 
-export type EditorMode = "video" | "image" | "tilejson_vector" | "tile_raster" | "tilejson_raster" | "tilexyz_raster-dem" | "tilejson_raster-dem" | "tile_vector" | "geojson_url" | "geojson_json" | null;
+export type EditorMode = "video" | "image" | "tilejson_vector" | "tile_raster" | "tilejson_raster" | "tilexyz_raster-dem" | "tilejson_raster-dem" | "pmtiles_vector" | "tile_vector" | "geojson_url" | "geojson_json" | null;
 
 type TileJSONSourceEditorProps = {
   source: {
@@ -286,6 +286,33 @@ class GeoJSONSourceFieldJsonEditor extends React.Component<GeoJSONSourceFieldJso
   }
 }
 
+type PMTilesSourceEditorProps = {
+  source: {
+    url: string
+  }
+  onChange(...args: unknown[]): unknown
+  children?: React.ReactNode
+} & WithTranslation;
+
+class PMTilesSourceEditor extends React.Component<PMTilesSourceEditorProps> {
+  render() {
+    const t = this.props.t;
+    return <div>
+      <FieldUrl
+        label={t("PMTiles URL")}
+        fieldSpec={latest.source_vector.url}
+        value={this.props.source.url}
+        data-wd-key="modal:sources.add.source_url"
+        onChange={(url: string) => this.props.onChange({
+          ...this.props.source,
+          url: url.startsWith("pmtiles://") ? url : `pmtiles://${url}`
+        })}
+      />
+      {this.props.children}
+    </div>
+  }
+}
+
 type ModalSourcesTypeEditorInternalProps = {
   mode: EditorMode
   source: any
@@ -308,9 +335,30 @@ class ModalSourcesTypeEditorInternal extends React.Component<ModalSourcesTypeEdi
     case 'tilejson_vector': return <TileJSONSourceEditor {...commonProps} />
     case 'tile_vector': return <TileURLSourceEditor {...commonProps} />
     case 'tilejson_raster': return <TileJSONSourceEditor {...commonProps} />
-    case 'tile_raster': return <TileURLSourceEditor {...commonProps} />
+    case 'tile_raster': return <TileURLSourceEditor {...commonProps}>
+      <FieldNumber
+        label={t("Tile Size")}
+        fieldSpec={latest.source_raster.tileSize}
+        onChange={tileSize => this.props.onChange({
+          ...this.props.source,
+          tileSize: tileSize
+        })}
+        value={this.props.source.tileSize || latest.source_raster.tileSize.default}
+        data-wd-key="modal:sources.add.tile_size"
+      />
+    </TileURLSourceEditor>
     case 'tilejson_raster-dem': return <TileJSONSourceEditor {...commonProps} />
     case 'tilexyz_raster-dem': return <TileURLSourceEditor {...commonProps}>
+      <FieldNumber
+        label={t("Tile Size")}
+        fieldSpec={latest.source_raster_dem.tileSize}
+        onChange={tileSize => this.props.onChange({
+          ...this.props.source,
+          tileSize: tileSize
+        })}
+        value={this.props.source.tileSize || latest.source_raster_dem.tileSize.default}
+        data-wd-key="modal:sources.add.tile_size"
+      />
       <FieldSelect
         label={t("Encoding")}
         fieldSpec={latest.source_raster_dem.encoding}
@@ -322,6 +370,7 @@ class ModalSourcesTypeEditorInternal extends React.Component<ModalSourcesTypeEdi
         value={this.props.source.encoding || latest.source_raster_dem.encoding.default}
       />
     </TileURLSourceEditor>
+    case 'pmtiles_vector': return <PMTilesSourceEditor {...commonProps} />
     case 'image': return <ImageSourceEditor {...commonProps} />
     case 'video': return <VideoSourceEditor {...commonProps} />
     default: return null

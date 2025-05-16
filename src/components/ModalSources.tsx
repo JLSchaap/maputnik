@@ -51,6 +51,7 @@ function editorMode(source: SourceSpecification) {
   }
   if(source.type === 'vector') {
     if(source.tiles) return 'tile_vector'
+    if(source.url && source.url.startsWith("pmtiles://")) return 'pmtiles_vector'
     return 'tilejson_vector'
   }
   if(source.type === 'geojson') {
@@ -129,6 +130,10 @@ class AddSource extends React.Component<AddSourceProps, AddSourceState> {
     const {protocol} = window.location;
 
     switch(mode) {
+    case 'pmtiles_vector': return {
+      type: 'vector',
+      url: `${protocol}//localhost:3000/file.pmtiles`
+    }
     case 'geojson_url': return {
       type: 'geojson',
       data: `${protocol}//localhost:3000/geojson.json`
@@ -155,10 +160,11 @@ class AddSource extends React.Component<AddSourceProps, AddSourceState> {
     }
     case 'tile_raster': return {
       type: 'raster',
-      tiles: (source as RasterSourceSpecification).tiles || [`${protocol}//localhost:3000/{x}/{y}/{z}.pbf`],
+      tiles: (source as RasterSourceSpecification).tiles || [`${protocol}//localhost:3000/{x}/{y}/{z}.png`],
       minzoom: (source as RasterSourceSpecification).minzoom || 0,
       maxzoom: (source as RasterSourceSpecification).maxzoom || 14,
-      scheme: (source as RasterSourceSpecification).scheme || 'xyz'
+      scheme: (source as RasterSourceSpecification).scheme || 'xyz',
+      tileSize: (source as RasterSourceSpecification).tileSize || 512,
     }
     case 'tilejson_raster-dem': return {
       type: 'raster-dem',
@@ -166,9 +172,10 @@ class AddSource extends React.Component<AddSourceProps, AddSourceState> {
     }
     case 'tilexyz_raster-dem': return {
       type: 'raster-dem',
-      tiles: (source as RasterDEMSourceSpecification).tiles || [`${protocol}//localhost:3000/{x}/{y}/{z}.pbf`],
+      tiles: (source as RasterDEMSourceSpecification).tiles || [`${protocol}//localhost:3000/{x}/{y}/{z}.png`],
       minzoom: (source as RasterDEMSourceSpecification).minzoom || 0,
-      maxzoom: (source as RasterDEMSourceSpecification).maxzoom || 14
+      maxzoom: (source as RasterDEMSourceSpecification).maxzoom || 14,
+      tileSize: (source as RasterDEMSourceSpecification).tileSize || 512
     }
     case 'image': return {
       type: 'image',
@@ -238,6 +245,7 @@ class AddSource extends React.Component<AddSourceProps, AddSourceState> {
           ['tile_raster', t('Raster (Tile URLs)')],
           ['tilejson_raster-dem', t('Raster DEM (TileJSON URL)')],
           ['tilexyz_raster-dem', t('Raster DEM (XYZ URLs)')],
+          ['pmtiles_vector', t('Vector (PMTiles)')],
           ['image', t('Image')],
           ['video', t('Video')],
         ]}
