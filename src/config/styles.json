@@ -45,14 +45,87 @@
     "id": "kadastralekaart-standaard-style",
     "title": "Kadastrale kaart standaard style",
     "url": "https://pdok.github.io/vectortile-demo-viewer/styles/brk/dkk_standaardvissualisatie_webmercatorquad.json",
-    "thumbnail": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v5-preprod/resources/kadastralekaart.png"
+    "thumbnail": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/resources/kadastralekaart.png"
   },
   {
     "id": "kadastralekaart-kwaliteit-style",
     "title": "Kadastrale kaart kwaliteit style",
     "url": "https://pdok.github.io/vectortile-demo-viewer/styles/brk/dkk_kwaliteitsvissualisatie_webmercatorquad.json",
-    "thumbnail": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v5-preprod/resources/kadastralekaart.png"
+    "thumbnail": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/resources/kadastralekaart.png"
   },
+  {
+    "id": "brt-achtergrondkaart-standaard-webmercatorquad",
+    "title": "BRT Achtergrondkaart Standaard (WebMercatorQuad)",
+    "url": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/styles/standaard__webmercatorquad?f=mapbox",
+    "thumbnail": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/resources/standaard.png"
+  },
+  {
+    "id": "brt-achtergrondkaart-standaard-europeanetrs89_laeaquad",
+    "title": "BRT Achtergrondkaart Standaard (EuropeanETRS89_LAEAQuad)",
+    "url": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/styles/standaard__europeanetrs89_laeaquad?f=mapbox",
+    "thumbnail": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/resources/standaard.png"
+  },
+  {
+    "id": "brt-achtergrondkaart-standaard-netherlandsrdnewquad",
+    "title": "BRT Achtergrondkaart Standaard (NetherlandsRDNewQuad)",
+    "url": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/styles/standaard__netherlandsrdnewquad?f=mapbox",
+     "thumbnail": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/resources/standaard.png"
+  },
+  {
+    "id": "brt-achtergrondkaart-standaard-zonder-labels-webmercatorquad",
+    "title": "BRT Achtergrondkaart Standaard - zonder labels (WebMercatorQuad)",
+    "url": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/styles/standaard_zonder_labels__webmercatorquad?f=mapbox",
+    "thumbnail": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/resources/standaard_zonder_labels.png"
+  },
+  {
+    "id": "brt-achtergrondkaart-standaard-zonder-labels-europeanetrs89_laeaquad",
+    "title": "BRT Achtergrondkaart Standaard - zonder labels (EuropeanETRS89_LAEAQuad)",
+    "url": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/styles/standaard_zonder_labels__europeanetrs89_laeaquad?f=mapbox",
+    "thumbnail": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/resources/standaard_zonder_labels.png"
+  },
+  {
+    "id": "brt-achtergrondkaart-standaard-zonder-labels-netherlandsrdnewquad",
+    "title": "BRT Achtergrondkaart Standaard - zonder labels (NetherlandsRDNewQuad)",
+    "url": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/styles/standaard_zonder_labels__netherlandsrdnewquad?f=mapbox",
+    "thumbnail": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/resources/standaard_zonder_labels.png"
+  },
+  {
+    "id": "brt-luchtfoto-labels-webmercatorquad",
+    "title": "BRT Luchtfoto labels (WebMercatorQuad)",
+    "url": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/styles/luchtfoto_labels__webmercatorquad?f=mapbox",
+    "thumbnail": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/resources/luchtfoto_labels.png"
+  },
+  {
+    "id": "brt-luchtfoto-labels-europeanetrs89_laeaquad",
+    "title": "BRT Luchtfoto labels (EuropeanETRS89_LAEAQuad)",
+    "url": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/styles/luchtfoto_labels__europeanetrs89_laeaquad?f=mapbox",
+    "thumbnail": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/resources/luchtfoto_labels.png"
+  },
+  {
+    "id": "brt-luchtfoto-labels-netherlandsrdnewquad",
+    "title": "BRT Luchtfoto labels (NetherlandsRDNewQuad)",
+    "url": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/styles/luchtfoto_labels__netherlandsrdnewquad?f=mapbox",
+    "thumbnail": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/resources/luchtfoto_labels.png"
+  },
+  {
+    "id": "brt-darkmode-webmercatorquad",
+    "title": "BRT Achtergrondkaart Dark Mode (WebMercatorQuad)",
+    "url": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/styles/darkmode__webmercatorquad?f=mapbox",
+    "thumbnail": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/resources/darkmode.png"
+  },
+  {
+    "id": "brt-darkmode-europeanetrs89_laeaquad",
+    "title": "BRT Achtergrondkaart Dark Mode (EuropeanETRS89_LAEAQuad)",
+    "url": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/styles/darkmode__europeanetrs89_laeaquad?f=mapbox",
+    "thumbnail": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/resources/darkmode.png"
+  },
+  {
+    "id": "brt-darkmode-netherlandsrdnewquad",
+    "title": "BRT Achtergrondkaart Dark Mode (NetherlandsRDNewQuad)",
+    "url": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/styles/darkmode__netherlandsrdnewquad?f=mapbox",
+    "thumbnail": "https://api.pdok.nl/brt/achtergrondkaart/ogc/v1-preprod/resources/darkmode.png"
+  },
+
   {
     "id": "0-empty-style",
     "title": "Empty Style",
