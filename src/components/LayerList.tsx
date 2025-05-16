@@ -287,9 +287,9 @@ class LayerListContainerInternal extends React.Component<LayerListContainerInter
               data-wd-key="skip-target-layer-list"
               onClick={this.toggleLayers}
               className="maputnik-button">
-              {this.state.areAllGroupsExpanded === true ? 
-                t("Collapse") 
-                : 
+              {this.state.areAllGroupsExpanded === true ?
+                t("Collapse")
+                :
                 t("Expand")
               }
             </button>
@@ -318,14 +318,7 @@ class LayerListContainerInternal extends React.Component<LayerListContainerInter
   }
 }
 
-// The next two lines have react-refresh/only-export-components disabled because they are
-// internal components that are not intended to be used outside of this file.
-// For some reason, the linter is not recognizing these components correctly.
-// When these components are migrated to functional components, the HOCs will no longer be needed
-// and the comments can be removed.
-// eslint-disable-next-line react-refresh/only-export-components
 const LayerListContainer = withTranslation()(LayerListContainerInternal);
-// eslint-disable-next-line react-refresh/only-export-components
 const LayerListContainerSortable = SortableContainer((props: LayerListContainerProps) => <LayerListContainer {...props} />)
 
 type LayerListProps = LayerListContainerProps & {
