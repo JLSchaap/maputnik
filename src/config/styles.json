@@ -42,16 +42,40 @@
     "thumbnail": "https://api.pdok.nl/kadaster/bestuurlijkegebieden/ogc/v1/resources/bestuurlijkegebieden_annotatievisualisatie.png"
   },
   {
-    "id": "kadastralekaart-standaard-style",
-    "title": "Kadastrale kaart standaard style",
-    "url": "https://pdok.github.io/vectortile-demo-viewer/styles/brk/dkk_standaardvissualisatie_webmercatorquad.json",
-    "thumbnail": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/resources/kadastralekaart.png"
+    "id": "kadastralekaart-standaardvisualisatie-webmercatorquad",
+    "title": "Kadastrale kaart standaardvisualisatie (WebMercatorQuad)",
+    "url": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/styles/standaardvisualisatie__webmercatorquad?f=mapbox",
+    "thumbnail": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/resources/standaardvisualisatie.png"
   },
   {
-    "id": "kadastralekaart-kwaliteit-style",
-    "title": "Kadastrale kaart kwaliteit style",
-    "url": "https://pdok.github.io/vectortile-demo-viewer/styles/brk/dkk_kwaliteitsvissualisatie_webmercatorquad.json",
-    "thumbnail": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/resources/kadastralekaart.png"
+    "id": "kadastralekaart-standaardvisualisatie-europeanetrs89_laeaquad",
+    "title": "Kadastrale kaart standaardvisualisatie (EuropeanETRS89_LAEAQuad)",
+    "url": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/styles/standaardvisualisatie__europeanetrs89_laeaquad?f=mapbox",
+    "thumbnail": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/resources/standaardvisualisatie.png"
+  },
+  {
+    "id": "kadastralekaart-standaardvisualisatie-netherlandsrdnewquad",
+    "title": "Kadastrale kaart standaardvisualisatie (NetherlandsRDNewQuad)",
+    "url": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/styles/standaardvisualisatie__netherlandsrdnewquad?f=mapbox",
+    "thumbnail": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/resources/standaardvisualisatie.png"
+  },
+  {
+    "id": "kadastralekaart-kwaliteitsvisualisatie-webmercatorquad",
+    "title": "Kadastrale kaart kwaliteitsvisualisatie (WebMercatorQuad)",
+    "url": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/styles/kwaliteitsvisualisatie__webmercatorquad?f=mapbox",
+    "thumbnail": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/resources/kwaliteitsvisualisatie.png"
+  },
+  {
+    "id": "kadastralekaart-kwaliteitsvisualisatie-europeanetrs89_laeaquad",
+    "title": "Kadastrale kaart kwaliteitsvisualisatie (EuropeanETRS89_LAEAQuad)",
+    "url": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/styles/kwaliteitsvisualisatie__europeanetrs89_laeaquad?f=mapbox",
+    "thumbnail": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/resources/kwaliteitsvisualisatie.png"
+  },
+  {
+    "id": "kadastralekaart-kwaliteitsvisualisatie-netherlandsrdnewquad",
+    "title": "Kadastrale kaart kwaliteitsvisualisatie (NetherlandsRDNewQuad)",
+    "url": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/styles/kwaliteitsvisualisatie__netherlandsrdnewquad?f=mapbox",
+    "thumbnail": "https://api.pdok.nl/kadaster/kadastralekaart/ogc/v1-demo/resources/kwaliteitsvisualisatie.png"
   },
   {
     "id": "brt-achtergrondkaart-standaard-webmercatorquad",
